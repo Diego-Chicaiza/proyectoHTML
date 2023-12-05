@@ -1,3 +1,44 @@
-.hero_section {
-    background-image: url("../images/hero-section.jpg");
+body {
+    background-color: #012873;
+}
+
+.navbar-color {
+    background-image: linear-gradient(to left, #030423 10%, #3653E3, #0097FF);
+}
+
+.heroSection {
+    background-image: url("../images/hero_banner.jpg");
+    background-size: cover;
+    height: 90vb;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.heroSection h1 {
+    background: linear-gradient(to right, #6EE5F5, 85% ,#F984F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    /* color: rgb(246, 73, 73); */
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2rem;
+    width: 100vb;
+}
+
+.row {
+    margin: 2rem;
+}
+
+.col h2{
+    color: #72CCE9;
+}
+
+.col p{
+    color: #F984F8;
+}
+
+.col a {
+    color:#FFFFFF;
 }
