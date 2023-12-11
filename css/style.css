@@ -9,7 +9,7 @@ body {
 .heroSection {
     background-image: url("../images/hero_banner.jpg");
     background-size: cover;
-    height: 90vb;
+    height: 90vh;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -19,26 +19,56 @@ body {
     background: linear-gradient(to right, #6EE5F5, 85% ,#F984F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
-    /* color: rgb(246, 73, 73); */
-    font-weight: 700;
+    font-size: 50rem;
+    font-weight: 700rem;
     text-align: left;
     margin-left: 2rem;
-    width: 100vb;
+    /* width: 100vb; */
 }
 
 .row {
     margin: 2rem;
 }
 
-.col h2{
+.content h2{
     color: #72CCE9;
 }
 
-.col p{
+.content p{
     color: #F984F8;
 }
 
-.col a {
-    color:#FFFFFF;
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to left, #030423 10%, #3653E3, #0097FF);
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer a {
+    color: #6EE5F5;
+    text-decoration: none;
 }

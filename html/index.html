@@ -1,67 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Web ECommerce </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Web ECommerce </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
-        <div class="container-fluid">
-            <img src="../images/logo.png" alt="logo_empresa" width="60px" height="60px">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Perfil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true"> Juegos </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Libros</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-success" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                    </svg>
-                </button>
-            </form>
-            <button class="btn btn-secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-minecart" viewBox="0 0 16 16">
-                    <path d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4m8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4M.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7H1.102z"/>
-                  </svg>
-            </button>
-          </div>
-        </div>
-      </nav>
-    <div class="heroSection">
-        <h1> Bienvenido a tu portal favorito de videojuegos </h1>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
+    <div class="container-fluid">
+      <img src="../images/logo.png" alt="logo_empresa" width="60px" height="60px">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"> Juegos </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Libros</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-success" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+          </button>
+        </form>
+        <button class="btn btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-minecart"
+            viewBox="0 0 16 16">
+            <path
+              d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4m8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4M.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7H1.102z" />
+          </svg>
+        </button>
+      </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <img src="../images/producto1.jpg" alt="producto1" width="250px">
-            <h2> HALO 4 </h2>
-            <p> Perdido en un mundo misterioso, frente a nuevos enemigos y una tecnología mortal, el universo nunca será el mismo. </p>
-            <a href="#"> Comprar </a>
-        </div>
-        <div class="col">
-            <img src="../images/producto2.jpg" alt="producto2" width="200px" height="300px">
-            <h2> The Last of Us parte 1 </h2>
-            <p> En una civilización devastada por la presencia de infectados y peligrosos supervivientes, Joel, protagonista, recibe el encargo de sacar en secreto a Ellie, una joven de 14 años, de una zona de cuarentena militar. </p>
-            <a href="#"> Leer mas </a>
-        </div>
+  </nav>
+  <section class="heroSection">
+    <h1> Bienvenido a tu portal favorito de videojuegos </h1>
+  </section>
+  <div class="row">
+    <article class="col">
+      <div class="img">
+        <img src="../images/producto1.jpg" alt="producto1" width="250px">
+      </div>
+      <div class="content">
+        <h2> HALO 4 </h2>
+        <p> Perdido en un mundo misterioso, frente a nuevos enemigos y una tecnología mortal, el universo nunca será el
+          mismo. </p>
+        <a class="btn btn-light" href="#"> Comprar </a>
+      </div>
+    </article>
+    <article class="col">
+      <div class="img">
+        <img src="../images/producto2.jpg" alt="producto2" width="200px" height="300px">
+      </div>
+      <div class="content">
+        <h2> The Last of Us parte 1 </h2>
+        <p> En una civilización devastada por la presencia de infectados y peligrosos supervivientes, Joel,
+          protagonista, recibe el encargo de sacar en secreto a Ellie, una joven de 14 años, de una zona de cuarentena
+          militar. </p>
+        <a class="btn btn-light" href="#"> Comprar </a>
+      </div>
+    </article>
+    <article class="col">
+      <div class="img">
+        <img src="../images/producto3.jpg" alt="portada god of war" width="200px" height="300">
+      </div>
+      <div class="content">
+        <h2> God of War </h2>
+        <p> Kratos sigue a las órdenes de los dioses, realizando misiones sobrehumanas y enfrentándose a seres
+          mitológicos como la Hidra, por petición de Poseidón. Los dioses le prometen librarle de sus pesadillas, pero
+          Kratos empieza a cansarse después de una década de leal servicio sin recibir el perdón. </p>
+        <a class="btn btn-light" href="#"> Comprar </a>
+      </div>
+    </article>
+  </div>
+  <div class="card">
+    <div class="card-footer text-muted footer">
+      <div class="p1">
+        <a href="#">Inicio</a>
+        <a href="#">Juegos</a>
+        <a href="#">Libros</a>
+      </div>
+      <div class="p2">
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Contacta con nosotros</a>
+        <a href="#">Términos de política y privacidad</a>
+      </div>
     </div>
-    <footer>
-        
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
