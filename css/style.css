@@ -19,11 +19,11 @@ body {
     background: linear-gradient(to right, #6EE5F5, 85% ,#F984F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 50rem;
-    font-weight: 700rem;
+    font-size: 50px;
+    font-weight: 700;
     text-align: left;
     margin-left: 2rem;
-    /* width: 100vb; */
+    width: 100vb;
 }
 
 .row {
